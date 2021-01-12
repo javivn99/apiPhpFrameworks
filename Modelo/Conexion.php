@@ -10,8 +10,8 @@ require_once 'webconfig.php';
 class Conexion  
 {  
   private static $dns       = DNS;  
-  private static $username  = USERNAME;  
-  private static $password  = PASSWORD;  
+  private static $username  = "javier";  
+  private static $password  = "root";  
   private static $instance;  
       
   private function __construct() { }  
